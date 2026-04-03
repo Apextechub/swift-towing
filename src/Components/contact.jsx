@@ -84,7 +84,7 @@ export default function GetQuote() {
                     </h2>
                     <p className="text-gray-400 mt-3 text-base max-w-md mx-auto">
                         Fill out the form below and we'll get back to you fast with a quote. Need immediate help?{" "}
-                        <a href="tel:+19045218220" className="text-yellow-400 font-semibold hover:underline">
+                        <a href="tel:+18634745318" className="text-yellow-400 font-semibold hover:underline">
                             Call +1 (863) 474 5318
                         </a>
                     </p>
@@ -103,13 +103,13 @@ export default function GetQuote() {
                             Thanks, {nameValue}! We've received your request and will reach out to you shortly. For urgent needs, call us directly.
                         </p>
                         <a
-                            href="tel:+19045218220"
+                            href="tel:+18634745318"
                             className="mt-2 bg-yellow-400 hover:bg-yellow-300 text-black font-bold px-6 py-3 rounded-xl transition-all duration-200 flex items-center gap-2"
                         >
                             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" />
                             </svg>
-                            Call +1 (904) 521-8220
+                            Call +1 (863) 474-5318
                         </a>
                         <button
                             onClick={() => { setSubmitted(false); reset(); }}
@@ -147,7 +147,7 @@ export default function GetQuote() {
                                 <input
                                     {...register("phone")}
                                     type="tel"
-                                    placeholder="+1 (000) 000-0000"
+                                    placeholder="+1 (863) 474-5318"
                                     className={`bg-zinc-800 border focus:border-yellow-400 focus:outline-none text-white text-sm rounded-xl px-4 py-3 transition-colors duration-200 placeholder-gray-600 ${errors.phone ? "border-red-500" : "border-zinc-700"
                                         }`}
                                 />
@@ -249,8 +249,8 @@ export default function GetQuote() {
 
                         <p className="text-gray-600 text-xs text-center">
                             For emergency towing, don't wait —{" "}
-                            <a href="tel:+19045218220" className="text-yellow-400 hover:underline font-semibold">
-                                call us directly at +1 (904) 521-8220
+                            <a href="tel:+18634745318" className="text-yellow-400 hover:underline font-semibold">
+                                call us directly at +1 (863) 474-5318
                             </a>
                         </p>
                     </form>

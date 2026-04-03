@@ -48,7 +48,7 @@ export default function Hero() {
             Get a Quote
           </a>
           <a
-            href="tel:+19045218220"
+            href="tel:+18634745318"
             className="border border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-bold text-base px-8 py-3.5 rounded-xl transition-all duration-200 flex items-center gap-2"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">

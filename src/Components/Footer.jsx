@@ -11,7 +11,7 @@ export default function Footer() {
             Stuck on the road? Call us — we're ready 24/7.
           </p>
           <a
-            href="tel:+19045218220"
+            href="tel:+18634745318"
             className="bg-black hover:bg-zinc-800 text-white font-bold text-sm px-6 py-3 rounded-xl transition-all duration-200 flex items-center gap-2 whitespace-nowrap"
           >
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -74,7 +74,7 @@ export default function Footer() {
         {/* Contact */}
         <div className="flex flex-col gap-2">
           <h4 className="text-black font-bold text-xs uppercase tracking-widest mb-1">Contact</h4>
-          <a href="tel:+19045218220" className="text-gray-500 hover:text-yellow-500 text-sm transition-colors">
+          <a href="tel:+18634745318" className="text-gray-500 hover:text-yellow-500 text-sm transition-colors">
            +1 (863) 474 5318
           </a>
           <span className="text-gray-500 text-sm">Tampa, FL</span>
