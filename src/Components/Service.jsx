@@ -108,6 +108,7 @@ export default function Services() {
                 {/* CTA */}
                 <a
                   href="tel:+18634745318"
+                  onClick={() => window.gtag_report_conversion && window.gtag_report_conversion()}
                   className="mt-2 inline-flex items-center gap-2 text-sm font-bold text-yellow-500 hover:text-yellow-600 transition-colors duration-200"
                 >
                   <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">

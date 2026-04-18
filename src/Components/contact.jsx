@@ -84,7 +84,11 @@ export default function GetQuote() {
                     </h2>
                     <p className="text-gray-400 mt-3 text-base max-w-md mx-auto">
                         Fill out the form below and we'll get back to you fast with a quote. Need immediate help?{" "}
-                        <a href="tel:+18634745318" className="text-yellow-400 font-semibold hover:underline">
+                        <a
+                            href="tel:+18634745318"
+                            onClick={() => window.gtag_report_conversion && window.gtag_report_conversion()}
+                            className="text-yellow-400 font-semibold hover:underline"
+                        >
                             Call +1 (863) 474 5318
                         </a>
                     </p>
@@ -104,6 +108,7 @@ export default function GetQuote() {
                         </p>
                         <a
                             href="tel:+18634745318"
+                            onClick={() => window.gtag_report_conversion && window.gtag_report_conversion()}
                             className="mt-2 bg-yellow-400 hover:bg-yellow-300 text-black font-bold px-6 py-3 rounded-xl transition-all duration-200 flex items-center gap-2"
                         >
                             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -249,7 +254,11 @@ export default function GetQuote() {
 
                         <p className="text-gray-600 text-xs text-center">
                             For emergency towing, don't wait —{" "}
-                            <a href="tel:+18634745318" className="text-yellow-400 hover:underline font-semibold">
+                            <a
+                                href="tel:+18634745318"
+                                onClick={() => window.gtag_report_conversion && window.gtag_report_conversion()}
+                                className="text-yellow-400 hover:underline font-semibold"
+                            >
                                 call us directly at +1 (863) 474-5318
                             </a>
                         </p>

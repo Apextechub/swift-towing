@@ -26,6 +26,7 @@ export default function Navbar() {
         </span>
         <a
           href="tel:+19045218220"
+          onClick={() => window.gtag_report_conversion && window.gtag_report_conversion()}
           className="font-bold hover:underline flex items-center gap-1"
         >
           📞 +1 (863) 474 5318
@@ -81,6 +82,7 @@ export default function Navbar() {
             <div className="hidden md:flex items-center gap-4">
               <a
                 href="tel:+18634745318"
+                onClick={() => window.gtag_report_conversion && window.gtag_report_conversion()}
                 className="bg-yellow-400 hover:bg-yellow-300 text-black font-bold text-sm px-5 py-2.5 rounded-lg transition-all duration-200 flex items-center gap-2 hover:scale-105 active:scale-95"
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -128,6 +130,7 @@ export default function Navbar() {
             ))}
             <a
               href="tel:+18634745318"
+              onClick={() => window.gtag_report_conversion && window.gtag_report_conversion()}
               className="mt-3 bg-yellow-400 hover:bg-yellow-300 text-black font-bold text-sm px-4 py-3 rounded-lg text-center transition-colors duration-200 flex items-center justify-center gap-2"
             >
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
